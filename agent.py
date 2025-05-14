@@ -599,7 +599,7 @@ def create_agent():
     llm = ChatOpenAI(
         temperature=0,
         model="gpt-4o",  # You can adjust the model as needed
-        openai_api_key= "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",
+        openai_api_key= "",
     )
     browser_tool = BrowserTool(llm=llm)
 
